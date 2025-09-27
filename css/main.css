@@ -1,0 +1,204 @@
+/* Загальні стилі */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #2E2F42;
+  background: #fff;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Header */
+.header {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.menu {
+  display: flex;
+  gap: 15px;
+}
+
+.menu a {
+  color: #2E2F42;
+}
+
+/* Contacts */
+.contacts {
+  font-style: normal;
+}
+
+.contacts ul {
+  display: flex;
+  gap: 20px;
+}
+
+.contacts a {
+  color: #434455;
+}
+
+/* Hero */
+.hero {
+  background: #2E2F42;
+  color: white;
+  text-align: center;
+  padding: 120px 20px;
+}
+
+.hero h1 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  background: #444bdc;
+  border: none;
+  padding: 15px 40px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Features */
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 60px 40px;
+  background: #fff;
+}
+
+.features ul {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.features li {
+  max-width: 200px;
+}
+
+/* Team */
+.team {
+  text-align: center;
+  background: #f4f4fd;
+  padding: 60px 20px;
+}
+
+.team ul {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.team li {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Portfolio */
+.portfolio {
+  padding: 60px 40px;
+  background: #fff;
+}
+
+.portfolio h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.portfolio ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.portfolio li {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  display: block;
+}
+
+.card-text {
+  padding: 15px;
+}
+
+.card-text h3 {
+  margin: 0 0 10px 0;
+  font-size: 20px;
+}
+
+.card-text p {
+  margin: 0;
+  color: #666;
+}
+
+/* Footer */
+.footer {
+  background: #2E2F42;
+  color: white;
+  padding: 40px;
+  text-align: center;
+}
+
+.footer .logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.footer p {
+  margin-top: 20px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Прихований заголовок (для доступності) */
+.visually-hidden {
+  position: absolute;
+  left: -9999px;
+}
